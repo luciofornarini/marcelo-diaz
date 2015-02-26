@@ -1,7 +1,7 @@
 dominio: marcelo diaz
 host: 2 años
 
-plantilla con imagenes de trigo..
+plantilla con imagenes de trigo..jjj
 
 
 inicio:
