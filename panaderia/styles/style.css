@@ -697,6 +697,7 @@ left.blockquote {
 	border-radius: 4px;
 	width:1080px;
 	margin:45px auto 20px auto;
+	text-align: center;
 }
 #footer .column_4 {
 	margin-bottom:-10px;
