@@ -1,0 +1,88 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: arial, sans-serif;
+}
+
+#wrapper{
+	width: 1024px;
+	min-height: 532px;
+	margin: 0px auto;
+}
+#portfolio{
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+#portfolio li{
+	display: inline-block;
+	margin: 10px 5px 10px 5px;
+}
+
+#portfolio li img{
+	width: 240px;
+	height: 170px;
+}
+#portfolio li img:hover{
+	cursor: pointer;
+}
+/*#overlay:hover{
+	cursor: pointer;
+}*/
+#main:hover{
+	cursor: pointer;
+}
+#frame{
+	position: fixed;
+	display: none;
+	left: 50%;
+	background-color: white;
+	width: 700px;
+	height: 550px;
+	margin-left:  -350px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 15px;
+}
+#main{
+	margin-left: 20px;
+	width: 660px;
+}
+#overlay{
+	display: none;
+	width: 1360px;
+	height: 800px;
+	position: fixed;
+	background-color: black;
+	opacity: 0.7;
+}
+#frame-table{
+	position: absolute;
+	width: 660px;
+	margin-left: 20;
+}
+
+#right, #left{
+	position: relative;
+	top:150px;
+	opacity: 0.5;
+}
+#left{
+	float: left;
+	margin-left: 10px;
+	margin-top: 40px;
+}
+#right{
+	float: right;
+	margin-right: -30px;
+	margin-top: 40px;
+}
+#descripcion{
+	background-color: white;
+	padding-bottom: 10px;
+}
+#descripcion p{
+	margin-left: 20px;
+	font-size: 24px;
+
+}
