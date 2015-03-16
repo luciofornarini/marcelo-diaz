@@ -14,9 +14,13 @@
 <script type='text/javascript' src='./js/ddsmoothmenu.js'></script>
 <script type='text/javascript' src='./js/js.js?ver=3.3.2'></script>
 
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/funciones.js"></script>
+
+
 </head>
 
-<body class="home page page-id-424 page-template-default chrome">
+<body>
 <div id="fb-root"></div>
 		<img alt="" id="full-bg" src="./imagenes/Fondos Trigos/fondotrigo5.jpg" />
            	<div id="content_wrapper">
@@ -37,7 +41,7 @@
                                         <a href="quienessomos.html">Quienes Somos</a>
                                     </li>
                                     <li id="menu-item-409">
-                                        <a href="maquinaria.php">Maquinaria</a>
+                                        <a href="maquinaria.html">Maquinaria</a>
                                             <ul class="sub-menu">
                                                 <li id="menu-item-413">
                                                     <a href="productosnuevos.html">Productos Nuevos</a></li>
@@ -67,9 +71,39 @@
                 </div>
                 <!-- end #header -->	        
                 <div id="main_content">
-                	<div class="w1036 single_page">
+                	<div >
                         <div id="424" class="column_12 single_page_content p_content">
+                            <div>Aca va una descripcion</div>
                                <!-- aca adentro va la galeria de imagenes o toda la informacion--> 
+                               <div id="overlay"></div>
+                                    <div id="frame">
+                                        <table id="frame-table">
+                                            <tr>
+                                                <td id="left">
+                                                    <img src="imagenes/galeria/left.png" alt="left"/>
+                                                </td>
+                                                <td id="right">
+                                                    <img src="imagenes/galeria/right.png" alt="right"/>
+                                                </td>   
+                                            </tr>
+                                        </table>    
+                                        <img id="main" src="" alt="">
+                                        <div id="descripcion">
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                    <div id="wrapper">
+                                        <ul id="portfolio">
+                                            <li><img id="3" src="imagenes/galeria/3.jpg" alt="img"></li>
+                                            <li><img id="2" src="imagenes/galeria/2.jpg" alt="img"></li>
+                                            <li><img id="7" src="imagenes/galeria/7.jpg" alt="img"></li>
+                                            <li><img id="1" src="imagenes/galeria/1.jpg" alt="img"></li>
+                                            <li><img id="5" src="imagenes/galeria/5.jpg" alt="img"></li>
+                                            <li><img id="4" src="imagenes/galeria/4.jpg" alt="img"></li>
+                                            <li><img id="6" src="imagenes/galeria/6.jpg" alt="img"></li>
+                                            <li><img id="8" src="imagenes/galeria/8.jpg" alt="img"></li>
+                                        </ul>       
+                                    </div>
                         </div>
            </div>  
         </div>
