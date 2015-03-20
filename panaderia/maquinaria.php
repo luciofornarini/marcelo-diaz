@@ -41,7 +41,7 @@
                                         <a href="quienessomos.html">Quienes Somos</a>
                                     </li>
                                     <li id="menu-item-409">
-                                        <a href="maquinaria.html">Maquinaria</a>
+                                        <a href="maquinaria.php">Maquinaria</a>
                                             <ul class="sub-menu">
                                                 <li id="menu-item-413">
                                                     <a href="productosnuevos.html">Productos Nuevos</a></li>
@@ -73,7 +73,7 @@
                 <div id="main_content">
                 	<div >
                         <div id="424" class="column_12 single_page_content p_content">
-                            <div>Aca va una descripcion</div>
+                            <div id="descripciongaleria">Stretches the lines so that each line has equal width (like in newspapers and magazines)</div>
                                <!-- aca adentro va la galeria de imagenes o toda la informacion--> 
                                <div id="overlay"></div>
                                     <div id="frame">
